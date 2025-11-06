@@ -1,0 +1,26 @@
+.extrato {
+  max-width: 400px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background: #f9f9f9;
+}
+
+.transacao {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.alto-valor {
+  color: red;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .extrato {
+    width: 100%;
+    font-size: 14px;
+  }
+}
